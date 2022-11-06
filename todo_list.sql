@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2022 at 02:41 PM
+-- Generation Time: Nov 06, 2022 at 02:49 PM
 -- Server version: 8.0.31
 -- PHP Version: 8.1.10
 
@@ -39,8 +39,9 @@ CREATE TABLE `todos` (
 --
 
 INSERT INTO `todos` (`id`, `create_date`, `text`, `completed`) VALUES
-(187, '2022-11-06 10:17:39', 'This is just a test task', 0),
-(188, '2022-11-06 10:18:46', 'Another one', 0);
+(1, '2022-11-06 14:49:16', 'Make this app better', 0),
+(2, '2022-11-06 14:49:16', 'Learn more about React', 1),
+(3, '2022-11-06 14:49:16', 'Create a repo for the project', 1);
 
 --
 -- Indexes for dumped tables
@@ -60,7 +61,7 @@ ALTER TABLE `todos`
 -- AUTO_INCREMENT for table `todos`
 --
 ALTER TABLE `todos`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=189;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
