@@ -1,2 +1,2 @@
-# To start the app:
+To start the app:
 > npm run dev
