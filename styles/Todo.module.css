@@ -1,0 +1,56 @@
+.todo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: white;
+}
+
+.todo:not(:first-child) {
+    border-top: 1px solid lightgray;
+}
+
+.todo:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.todo:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.todo:hover {
+    background: rgb(250, 250, 250);
+}
+
+.text {
+    flex-grow: 1;
+}
+
+.date {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.remove {
+    height: max-content;
+    margin-inline: auto;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+
+    background: none;
+    cursor: pointer;
+}
+
+.remove:focus,
+.remove:hover {
+    outline: none;
+    text-decoration: underline;
+}

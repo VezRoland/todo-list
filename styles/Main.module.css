@@ -1,0 +1,10 @@
+.todo_list {
+    width: min(750px, 90vw);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-block: 50px;
+    margin: auto;
+    border-radius: 10px;
+}

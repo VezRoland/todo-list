@@ -1,0 +1,25 @@
+.todos {
+    position: relative;
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05);
+    background: white;
+    overflow: auto;
+}
+
+.inside {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.info {
+    padding-block: 30px;
+    color: gray;
+    user-select: none;
+}
